@@ -10,6 +10,6 @@ public class SpringController {
     @GetMapping("/")
     @ResponseBody
     public String hello(){
-        return "Hello world";
+        return "<h1>Hello world</h1>";
     }
 }
